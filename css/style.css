@@ -1,0 +1,171 @@
+body{
+  font-family: "Ubuntu";
+  text-align: center;
+}
+#title, #cta{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.store{
+  height: 150%;
+  width: 120%;
+  padding: 20px 30px 20px 20px;
+  transform: rotate(0deg);
+  position: absolute;
+  margin-top: 50px;
+}
+h1,h2{
+  font-family: "Montserrat" sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-size: 1.5rem;
+  font-family: "Montserrat-Bold";
+}
+.container-fluid{
+  padding: 3% 25% 3% 10%;
+}
+/* navigation bar */
+.navbar{
+  padding: 0 0 0 3.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  padding-right: 50%;
+}
+.nav-item{
+  padding: 0 18px 0 0;
+}
+.nav-link{
+  font-size: 0 1.2rem 0 0;
+  font-family: "Montserrat";
+}
+/* Bottons */
+.DownloadButton{
+  margin: 5% 3% 5% 0;
+  color: #fff;
+}
+.Download{
+  color: #fff;
+}
+.Download:hover{
+  text-decoration: none;
+  color: #ff4c68;
+}
+/* features */
+
+.icons{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icons:hover{
+
+  color: #ff4c68;
+}
+#features{
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  padding: 7% 13%;
+}
+p{
+  color: #8f8f8f;
+}
+.feature-box{
+  padding: 5%;
+}
+/* testimonials */
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 5%;
+}
+.press-img{
+  height: 8%;
+  width: 20%;
+  padding-right: 3%;
+  }
+  .carousel-item{
+    padding: 7% 15%;
+  }
+/* card deck */
+#T-Varieties{
+  margin: 100px;
+
+}
+.variety{
+  height: 14rem;
+  width: 16rem;
+  position: relative;
+  padding: fixed;
+}
+.card{
+  margin: 3% 0;
+  width: 16rem;
+}
+.hunt{
+  font-family: "Montserrat-Black";
+  color: #fff;
+  font-size: 3rem;
+
+}
+/* gallery */
+.sizes{
+  width: 60%;
+  height: 100%;
+  padding:20% 0 0 0;
+}
+#cta{
+  padding: 10% 5% 5%;
+}
+.mb-3{
+  background-color: #fff;
+}
+#footer{
+  padding: 5% 5% 0;
+}
+.xyz{
+  padding: 1%;
+}
+.para{
+  margin: 3% 0;
+}
+.insta{
+  color: black;
+}
+.insta:hover{
+color: #ff4c68;
+}
+@media(max-width: 1020px) {
+  .store{
+    position: static;
+    text-align: center;
+  }
+  #title{
+    text-align: center;
+  }
+  h1,h2,h3{
+    font-size: 1.8rem;
+  }
+  h1{
+  padding-bottom: 10%;
+  }
+.navbar-brand{
+  padding-right: 0;
+  text-align: left;
+}
+#T-Varieties{
+  margin-left: 15%;
+}
+}
